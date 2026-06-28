@@ -7,7 +7,7 @@
 
 A Wokwi/Arduino rotary encoder keyboard and menu project using an Arduino Nano, a 20x4 I2C LCD, and a KY-040 style rotary encoder.
 
-![Rotary Keyboard wiring diagram](images/wiring-diagram.png)
+![Rotary Keyboard wiring diagram](images/wiring-diagram.svg)
 
 ## Wokwi Simulation
 
@@ -86,7 +86,7 @@ The extracted project currently includes the visible `sketch.ino` and library li
 
 ## License
 
-- Source code is licensed under the [MIT License](LICENSE).
-- Documentation and images are licensed under [Creative Commons Attribution 4.0 International](LICENSE-DOCS).
+- Recommended code license: [MIT](LICENSE-CODE.md).
+- Documentation and images: [CC BY 4.0](LICENSE-DOCS.md).
 
 Copyright (c) 2026 Larry Brendel.
