@@ -15,6 +15,21 @@ Original Wokwi project:
 
 https://wokwi.com/projects/441642530815823873
 
+## Included Files
+
+```text
+rotary-keyboard/
+├── README.md
+├── sketch.ino
+├── diagram.json
+├── libraries.txt
+├── RotaryKeyboard.cpp
+├── RotaryKeyboard.h
+├── wokwi-project.txt
+├── docs/
+└── images/
+```
+
 ## Features
 
 - Rotary encoder driven LCD menu
@@ -44,14 +59,6 @@ Install these from the Arduino Library Manager or include them in Wokwi `librari
 | `LiquidCrystal I2C` / `LiquidCrystal_I2C` | Drives the I2C LCD display |
 | `EncoderButton` | Handles click, long press, and double-click events |
 
-The included `libraries.txt` contains:
-
-```text
-LiquidCrystal_I2C
-Encoder
-EncoderButton
-```
-
 ## Current Pinout
 
 | Arduino Nano Pin | Connected Device | Code Reference |
@@ -71,10 +78,6 @@ EncoderButton
 3. Install the required libraries listed above.
 4. Select **Arduino Nano** as the board.
 5. Compile and upload.
-
-## Project Status
-
-The extracted project currently includes the visible `sketch.ino` and library list. The Wokwi page showed additional tabs named `diagram.json`, `RotaryKeyboard.cpp`, and `RotaryKeyboard.h`; add those source files from Wokwi when available so the sketch can compile as a complete standalone project.
 
 ## Documentation
 
