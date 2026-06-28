@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Rotary Keyboard Wiring Diagram</title>
+  <desc id="desc">Arduino Nano wired to a 20x4 I2C LCD and KY-040 rotary encoder.</desc>
+  <rect width="900" height="560" fill="#f8fafc"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Rotary Keyboard Wiring</text>
+  <text x="450" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">Arduino Nano + 20x4 I2C LCD + KY-040 Rotary Encoder</text>
+
+  <rect x="350" y="130" width="200" height="320" rx="14" fill="#ffffff" stroke="#111827" stroke-width="3"/>
+  <text x="450" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Arduino Nano</text>
+  <rect x="395" y="185" width="110" height="210" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">NANO</text>
+
+  <g font-family="Arial, sans-serif" font-size="14" fill="#111827">
+    <text x="325" y="215">A0</text><circle cx="350" cy="210" r="5" fill="#111827"/>
+    <text x="325" y="250">A1</text><circle cx="350" cy="245" r="5" fill="#111827"/>
+    <text x="325" y="285">A2</text><circle cx="350" cy="280" r="5" fill="#111827"/>
+    <text x="560" y="215">5V</text><circle cx="550" cy="210" r="5" fill="#111827"/>
+    <text x="560" y="250">GND</text><circle cx="550" cy="245" r="5" fill="#111827"/>
+    <text x="560" y="320">A4/SDA</text><circle cx="550" cy="315" r="5" fill="#111827"/>
+    <text x="560" y="355">A5/SCL</text><circle cx="550" cy="350" r="5" fill="#111827"/>
+  </g>
+
+  <rect x="70" y="150" width="210" height="160" rx="12" fill="#111827" stroke="#374151" stroke-width="3"/>
+  <rect x="92" y="182" width="166" height="72" rx="6" fill="#93c5fd" stroke="#60a5fa" stroke-width="2"/>
+  <text x="175" y="222" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#0f172a">20x4 LCD</text>
+  <text x="175" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">I2C LCD</text>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#111827">
+    <text x="110" y="382">VCC</text><circle cx="150" cy="378" r="5" fill="#ef4444"/>
+    <text x="110" y="412">GND</text><circle cx="150" cy="408" r="5" fill="#111827"/>
+    <text x="110" y="442">SDA</text><circle cx="150" cy="438" r="5" fill="#22c55e"/>
+    <text x="110" y="472">SCL</text><circle cx="150" cy="468" r="5" fill="#3b82f6"/>
+  </g>
+
+  <rect x="660" y="165" width="170" height="170" rx="16" fill="#ffffff" stroke="#111827" stroke-width="3"/>
+  <circle cx="745" cy="250" r="48" fill="#e5e7eb" stroke="#374151" stroke-width="6"/>
+  <circle cx="745" cy="250" r="12" fill="#9ca3af"/>
+  <text x="745" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Rotary Encoder</text>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#111827">
+    <text x="820" y="202">CLK</text><circle cx="810" cy="198" r="5" fill="#f59e0b"/>
+    <text x="820" y="232">DT</text><circle cx="810" cy="228" r="5" fill="#a855f7"/>
+    <text x="820" y="262">SW</text><circle cx="810" cy="258" r="5" fill="#ec4899"/>
+    <text x="820" y="292">+</text><circle cx="810" cy="288" r="5" fill="#ef4444"/>
+    <text x="820" y="322">GND</text><circle cx="810" cy="318" r="5" fill="#111827"/>
+  </g>
+
+  <path d="M150 378 C240 378 460 210 550 210" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M150 408 C240 408 460 245 550 245" fill="none" stroke="#111827" stroke-width="4"/>
+  <path d="M150 438 C240 438 460 315 550 315" fill="none" stroke="#22c55e" stroke-width="4"/>
+  <path d="M150 468 C240 468 460 350 550 350" fill="none" stroke="#3b82f6" stroke-width="4"/>
+
+  <path d="M810 198 C720 198 455 210 350 210" fill="none" stroke="#f59e0b" stroke-width="4"/>
+  <path d="M810 228 C720 228 455 245 350 245" fill="none" stroke="#a855f7" stroke-width="4"/>
+  <path d="M810 258 C720 258 455 280 350 280" fill="none" stroke="#ec4899" stroke-width="4"/>
+  <path d="M810 288 C720 288 640 210 550 210" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M810 318 C720 318 640 245 550 245" fill="none" stroke="#111827" stroke-width="4"/>
+
+  <rect x="285" y="485" width="330" height="42" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="450" y="511" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">Code pins: Encoder A0/A1, Button A2, LCD SDA A4, LCD SCL A5</text>
+</svg>
