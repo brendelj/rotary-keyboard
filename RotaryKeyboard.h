@@ -31,6 +31,8 @@ private:
     bool active = false;
     String currentValue;
     String promptText;
+    void (*saveCallback)(String) = nullptr;
+    void (*cancelCallback)() = nullptr;
     char prevChars[20];
     void initCustomChars();
     void updateDisplay();
